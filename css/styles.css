@@ -1,1 +1,508 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    font-family: 'Roboto';
+}
 
+nav {
+    margin-bottom: 0;
+    border-radius: 0;
+    background: url(../images/meni.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    bottom: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: #fff;
+}
+
+.navbar li a:hover {
+    text-shadow: 2px 2px 8px #7f7f7f;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+h5 {
+    height: 30px;
+    width: 100%;
+    font-family: 'Exo';
+    color: #000;
+    position: relative;
+    bottom: 50px;
+    left: 0;
+}
+
+.row.content {
+    height: auto;
+}
+
+.sidenav {
+    height: 100%;
+}
+
+.left-banner {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: -5px;
+    width: 220px;
+    height: 100%;
+    z-index: 1;
+}
+
+.right-banner {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: -5px;
+    width: 220px;
+    height: 100%;
+    z-index: 1;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #888;
+}
+
+.line {
+    border-top: 2px solid #000;
+    position: relative;
+    bottom: 50px;
+}
+
+.line2 {
+    background: url(../images/pretraga.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+
+.col-sm-3 {
+    position: relative;
+    bottom: 30px;
+}
+
+select {
+    top: 25px;
+}
+
+.select {
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%), linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background-position: calc(100% - 17px) calc(1em), calc(100% - 12px) calc(1em), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+
+.select:focus {
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(135deg, white 50%, transparent 50%), linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background-position: calc(100% - 17px) calc(1em), calc(100% - 12px) calc(1em), 100% 0;
+    background-size: 5px 5px, 5px 5px, 2.5em 2.5em;
+    background-repeat: no-repeat;
+    border: 1px solid #000;
+}
+
+optgroup {
+    color: #000;
+    background-color: #fff;
+}
+
+option {
+    color: #000;
+    background-color: #fff;
+}
+
+.btn {
+    position: relative;
+    top: -20px;
+    background: #7d7e7d;
+    background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    color: #fff;
+}
+
+.btn:hover {
+    background: #7d7e7d;
+    background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    color: #fff;
+}
+
+address {
+    font-style: italic;
+    font-weight: bold;
+}
+
+address a {
+    color: #ed1c24;
+}
+
+address a:hover {
+    color: #ed1c24;
+}
+
+.link-color {
+    color: #ed1c24;
+}
+
+.link-color:hover {
+    color: #ed1c24;
+}
+
+.well p {
+    text-shadow: none;
+}
+
+.well2 p {
+    text-shadow: 2px 2px 3px rgba(150, 150, 150, 1);
+}
+
+.col-sm-8 p a {
+    color: #ed1c24;
+}
+
+footer {
+    margin-top: 50px;
+    width: auto;
+}
+
+.footer-bar {
+    color: #000;
+    background-color: #fff;
+    position: relative;
+    top: -10px;
+}
+
+.display-tbl {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.display-cell {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    float: none;
+    border: none;
+}
+
+.display-cell .img-responsive {
+    box-shadow: none;
+}
+
+.display-cell strong {
+    font-size: 16px;
+}
+
+.well {
+    background: #7d7e7d;
+    background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    color: #fff;
+}
+
+.well2 {
+    padding: 0;
+    margin: 0;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1170px) {
+    .fixed {
+        width: calc(100% - 428px);
+        margin: 0 auto;
+    }
+    .left-banner {
+        position: fixed;
+        width: 220px;
+        height: 100%;
+        margin: 0 auto;
+        top: 0;
+    }
+    .right-banner {
+        position: fixed;
+        width: 220px;
+        height: 100%;
+        margin: 0 auto;
+        top: 0;
+    }
+    footer {
+        margin-top: 50px;
+        width: auto;
+    }
+    .footer-bar {
+        color: #000;
+        background-color: #fff;
+    }
+    .display-cell {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        float: none;
+        border: none;
+    }
+    .display-cell .img-responsive {
+        box-shadow: none;
+    }
+    .display-cell strong {
+        font-size: 16px;
+    }
+    #return-to-top {
+        position: fixed;
+        bottom: 20px;
+        right: 217px;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.7);
+        width: 38px;
+        height: 38px;
+        display: block;
+        text-decoration: none;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        border-radius: 35px;
+        display: none;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+    #return-to-top i {
+        color: #ed1c24;
+        margin: 0;
+        position: relative;
+        left: 10px;
+        top: 11px;
+        font-size: 19px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        z-index: 1;
+    }
+    #return-to-top:hover {
+        background: #ed1c24;
+    }
+    #return-to-top:hover i {
+        color: silver;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    .left-banner {
+        display: none;
+    }
+    .right-banner {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        background: url(../images/meni-tablet.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -39px;
+    }
+    ul li {
+        position: relative;
+        bottom: -10px;
+    }
+    .navbar-right li a {
+        position: relative;
+        height: 60px;
+    }
+    .col-sm-4 {
+        width: 100%;
+    }
+    .col-sm-8 {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .well p:first-child {
+        margin-top: 20px;
+    }
+    .well2 p:first-child {
+        padding-top: 20px;
+    }
+    footer {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .footer-bar {
+        color: #000;
+        background-color: #fff;
+    }
+    .display-tbl {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .display-cell {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        float: none;
+        border: none;
+    }
+    .display-cell .img-responsive {
+        box-shadow: none;
+    }
+    .display-cell strong {
+        font-size: 16px;
+    }
+    #return-to-top {
+        display: none;
+    }
+    #return-to-top i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    .left-banner {
+        display: none;
+    }
+    .right-banner {
+        display: none;
+    }
+    nav {
+        width: 100%;
+        background: url(../images/meni-mob.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        top: -20px;
+    }
+    .icon-bar {
+        background-color: #fff;
+        position: relative;
+        top: -10px;
+    }
+    ul li {
+        bottom: 10px;
+    }
+    .navbar-collapse {
+        padding-left: 5px;
+        padding-right: 5px;
+        overflow-x: visible;
+        position: relative;
+        top: -15px;
+    }
+    .navbar-right li a {
+        height: 35px;
+        background: #7d7e7d;
+        background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+        color: #fff;
+    }
+    .navbar-right li a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+    .col-sm-3 {
+        padding-top: 15px;
+        bottom: 50px;
+        width: 100%;
+    }
+    .col-sm-8 {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .well p:first-child {
+        margin-top: 20px;
+    }
+    .well2 p:first-child {
+        margin-top: 20px;
+    }
+    .well2 p {
+        text-align: justify;
+    }
+    footer {
+        margin-top: 50px;
+        width: 100%;
+    }
+    .footer-bar {
+        color: #000;
+        background-color: #fff;
+    }
+    .display-tbl {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+    }
+    .display-cell {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        float: none;
+        border: none;
+    }
+    .display-cell .img-responsive {
+        box-shadow: none;
+    }
+    .display-cell strong {
+        font-size: 10px;
+    }
+    #return-to-top {
+        display: none;
+    }
+    #return-to-top i {
+        display: none;
+    }
+}

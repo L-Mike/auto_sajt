@@ -1,0 +1,292 @@
+html {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    display: table;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    background-color: #fff;
+    font-family: 'Roboto';
+}
+
+nav {
+    margin-bottom: 0;
+    border-radius: 0;
+    background: url(../images/meni.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: #fff;
+}
+
+.navbar li a:hover {
+    text-shadow: 2px 2px 8px #7f7f7f;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.row.content {
+    height: auto;
+}
+
+.sidenav {
+    height: 100%;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.well p {
+    text-shadow: none;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.well a {
+    color: #ed1c24;
+}
+
+.well a:hover {
+    color: #ed1c24;
+}
+
+.line2 {
+    background: url(../images/pretraga.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 40px;
+    width: 100%;
+    position: relative;
+    bottom: 8px;
+}
+
+.well {
+    background-color: transparent;
+    background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    color: #fff;
+}
+
+.kontakt {
+    padding-left: 35px;
+}
+
+.thumbnail {
+    background-color: transparent;
+    background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+    color: #fff;
+}
+
+.thumbnail a {
+    color: #ed1c24;
+}
+
+.thumbnail a:hover {
+    color: #ed1c24;
+}
+
+address p {
+    text-align: left;
+    font-size: 16px;
+}
+
+address a {
+    color: #ed1c24;
+}
+
+address a:hover {
+    color: #ed1c24;
+}
+
+@media screen and (min-width: 1170px) {
+    .fixed {
+        width: 100%;
+    }
+    .wrapper {
+        text-align: center;
+        margin: 20px;
+        height: auto;
+        position: relative;
+        top: -10px;
+    }
+    footer {
+        background-color: transparent;
+        display: table-row;
+        height: 1px;
+    }
+}
+
+@media screen and (max-width: 1169px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    nav {
+        width: 100%;
+        background: url(../images/meni-tablet.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        position: relative;
+        top: -39px;
+    }
+    ul li {
+        position: relative;
+        bottom: -10px;
+    }
+    .navbar-right li a {
+        position: relative;
+        height: 60px;
+    }
+    .col-sm-4 {
+        width: 100%;
+    }
+    .col-sm-8 {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .well p:first-child {
+        margin-top: 20px;
+    }
+    .wrapper {
+        text-align: center;
+        margin: 20px;
+        height: auto;
+        position: relative;
+        top: -10px;
+    }
+    footer {
+        background-color: transparent;
+        display: table-row;
+        height: 1px;
+    }
+    .wrapper p {
+        float: left;
+        position: relative;
+        bottom: -15px;
+        font-size: 16px;
+    }
+    .wrapper img {
+        position: relative;
+        top: -15px;
+    }
+    .social {
+        text-align: right;
+        position: relative;
+        top: -30px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {
+        height: auto;
+    }
+    nav {
+        width: 100%;
+        background: url(../images/meni-mob.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        top: -20px;
+    }
+    .icon-bar {
+        background-color: #fff;
+        position: relative;
+        top: -10px;
+    }
+    ul li {
+        bottom: 10px;
+    }
+    .navbar-collapse {
+        padding-left: 5px;
+        padding-right: 5px;
+        overflow-x: visible;
+        position: relative;
+        top: -15px;
+    }
+    .navbar-right li a {
+        height: 35px;
+        background: #7d7e7d;
+        background: -webkit-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        background: -o-linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        background: linear-gradient(#7d7e7d 0%, #0e0e0e 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e', GradientType=0);
+        color: #fff;
+    }
+    .navbar-right li a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+    .col-sm-3 {
+        padding-top: 15px;
+        bottom: 50px;
+        width: 100%;
+    }
+    .col-sm-8 {
+        width: 100%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .btn {
+        width: 100%;
+    }
+    .well p:first-child {
+        margin-top: 20px;
+    }
+    .wrapper {
+        text-align: center;
+        margin: 0;
+        height: auto;
+        position: relative;
+        top: -20px;
+    }
+    footer {
+        background-color: transparent;
+        height: 1px;
+    }
+    .wrapper p {
+        width: 100%;
+        position: relative;
+        top: 15px;
+        z-index: 1;
+    }
+    .wrapper img {
+        position: relative;
+        top: 5px;
+    }
+    .social {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        top: 5px;
+    }
+}
